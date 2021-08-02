@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/mateo951/portfolio/issues) page.
+Feel free to check the [issues](https://github.com/mateo951/capstone_m1/issues) page.
 
 Show your support
 Give a ⭐️ if you like this project!
