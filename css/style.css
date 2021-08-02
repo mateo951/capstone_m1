@@ -1,0 +1,186 @@
+html,
+body {
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  margin: 5px;
+  margin-top: 10px;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  background: url(/media/images/pax-bg-1.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+@font-face {
+  font-family: coco;
+  src: url(/media/fonts/cocogoose/cocogoose.woff);
+}
+
+.font-family-c {
+  font-family: coco, sans-serif;
+}
+
+.font-family-l {
+  font-family: "Lato", sans-serif;
+}
+
+.font-color1 {
+  color: #ec5242;
+}
+
+.font-color2 {
+  color: #272a31;
+}
+
+.font-color3 {
+  color: white;
+}
+
+.font-weight1 {
+  font-weight: 400;
+}
+
+.font-weight2 {
+  font-weight: 200;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+header {
+  padding: 25px;
+  background: transparent;
+}
+
+.fa-bars {
+  color: #292A2E;
+}
+
+.bg-color {
+  background-color: #f0f0f0;
+}
+
+.bg-color2 {
+  background-color: #272a31;
+}
+
+#hbIcon {
+  width: 100px;
+}
+
+.content-spacing {
+  padding: 15px;
+}
+
+.content-spacing div p {
+  margin-top: 30px;
+  font-weight: 500;
+  border: solid #fff;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 24px;
+} 
+
+#date {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+#location {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+hr.solid-separator {
+  border: 0;
+  border-top: 1px solid #ec5242;
+  width: 40px;
+  margin-top: 15px;
+}
+
+.section-Title {
+  margin-top: 24px;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 35px 10px;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  background: #41434b;
+  padding: 10px;
+}
+
+.event-container img {
+  flex-basis: 20%;
+  max-width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.event-container h2 {
+  flex-basis: 30%;
+  line-height: 24px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.event-container p {
+  flex-basis: 50%;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.bttn-1 {
+  background-color: #ec5242; /* Green */
+  border: none;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px 10%;
+  display:block;
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
