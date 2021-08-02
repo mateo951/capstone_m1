@@ -2,13 +2,12 @@
 
 This is the first capstone project in Microverse. The goal of the project is to apply the tools we have learned in the last 4 weeks. Being able to show mastery in all topics is crucial! This webiste reflects how efficient we use html, css and js concepts by cloning a design. 
 
-![Alt text]()
+#[Portolio Live Demo](https://mateo951.github.io/capstone_m1/)
+
 
 ## Built With
 - HTML, CSS, JS
 - Linters, Node.js, Git, Flexbox
-
-[Portolio Live Demo](https://mateo951.github.io/capstone_m1/)
 
 To get a local copy up and running follow these simple example steps.
 - On your terminal and run the following command to clone the repository
