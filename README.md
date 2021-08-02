@@ -17,13 +17,13 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 👤 Mateo Villagómez
 
-GitHub: [@mateo951](https://github.com/mateo951)
-Twitter: [@MVGameDev](https://twitter.com/MVGameDev)
-LinkedIn: [@Mateo Villagómez](https://www.linkedin.com/in/mateo-villagómez/)
+- GitHub: [@mateo951](https://github.com/mateo951)
+- Twitter: [@MVGameDev](https://twitter.com/MVGameDev)
+- LinkedIn: [@Mateo Villagómez](https://www.linkedin.com/in/mateo-villagómez/)
 
 ## Design 
-[Cindy Shin](https://www.behance.net/adagio07) 
-[Design Guideline](https://www.behance.net/adagio07) 
+- [Cindy Shin](https://www.behance.net/adagio07) 
+- [Design Guideline](https://www.behance.net/adagio07) 
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
