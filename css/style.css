@@ -9,10 +9,12 @@ li {
   list-style: none;
   display: inline-block;
   padding: 0;
+  margin: 0;
 }
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 h1 {
@@ -58,12 +60,24 @@ h2 {
   color: white;
 }
 
+.font-color4 {
+  color: #595959;
+}
+
 .font-weight1 {
   font-weight: 400;
 }
 
 .font-weight2 {
+  font-weight: 600;
+}
+
+.font-weight3 {
   font-weight: 200;
+}
+
+.font-size1 {
+  font-size: 15px;
 }
 
 .text-align-center {
@@ -95,7 +109,7 @@ header {
   padding: 15px;
 }
 
-.content-spacing div p {
+#header div p {
   margin-top: 30px;
   font-weight: 500;
   border: solid #fff;
@@ -105,14 +119,14 @@ header {
 } 
 
 #date {
-  font-size: 21px;
+  font-size: 25px;
   margin-top: 20px;
 }
 
 #location {
   font-size: 15px;
   margin-top: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 hr.solid-separator {
@@ -126,7 +140,7 @@ hr.solid-separator {
   margin-top: 24px;
 }
 
-.events-container {
+.column-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,18 +182,67 @@ hr.solid-separator {
   font-size: 15px;
 }
 
-.bttn-1 {
-  background-color: #ec5242; /* Green */
-  border: none;
-  color: white;
+.bttn-clasic {
   padding: 25px 0;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  margin: 20px 10%;
   display:block;
 }
 
+.bttn-1 {
+  background-color: #ec5242; /* Green */
+  border: none;
+  color: white;
+  margin: 20px 10%;
+}
+
+.bttn-2 {
+  background-color: transparent; /* Green */
+  border: 1px solid grey;
+  color: #292A2E;
+  margin: 20px 0%;
+  margin-top: 70px;
+}
+
+#arrowIcon {
+  margin-left: 10px;
+}
+
+.guest-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.guest-container img {
+  flex-basis: 30%;
+  max-width: 120px;
+  height: 120px;
+}
+
+.guest-container div {
+  flex-basis: 70%;
+  margin-left: 20px;
+}
+
+.guest {
+  height: 120px;
+}
+
+#guests li div {
+  margin-top: 0;
+  line-height: 25px;
+}
+
+.img-radius {
+  border: 2px solid grey;
+  border-radius: 20px;
+}
 
 @media screen and (min-width: 768px) {
 
