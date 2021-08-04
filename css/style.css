@@ -5,7 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-div,
 li {
   list-style: none;
   display: inline-block;
