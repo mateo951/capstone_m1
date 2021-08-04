@@ -70,25 +70,25 @@ hamBttn.addEventListener('click', () => {
 const guests = [
   {
     guest: 'Rockstar',
-    imgUrl: '../media/icons/rockstar-games.svg',
+    imgUrl: './media/icons/rockstar-games.svg',
     companyDes: 'AAA Publisher',
     description: 'Known World-wide for GTA series',
   },
   {
     guest: 'Andean',
-    imgUrl: '../media/icons/andean.png',
+    imgUrl: './media/icons/andean.png',
     companyDes: 'Indie Studio',
     description: 'Showcasing future releases for mobile',
   },
   {
     guest: 'Battle State',
-    imgUrl: '../media/icons/battlestate.png',
+    imgUrl: './media/icons/battlestate.png',
     companyDes: 'Game Studio',
     description: 'Creators of Escape From Tarkov',
   },
   {
     guest: 'Gamepires',
-    imgUrl: '../media/icons/gamepires.png',
+    imgUrl: './media/icons/gamepires.png',
     companyDes: 'Game Studio',
     description: 'The studio developing Scum',
   },
