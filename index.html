@@ -14,11 +14,37 @@
 <body class="bg-c-1">
   <header>
     <i class="fas fa-bars fa-2x" id="hbIcon"></i>
+    <div class="header-bar">
+      <i class="fab fa-facebook-f" aria-hidden="true"></i>
+      <i class="fab fa-twitter" aria-hidden="true"></i>
+      <p class="font-family-l f-s-1">Logout</p>
+      <p class="font-family-l f-s-1">Mypage</p>
+      <p class="font-family-l f-s-1">Spanish</p>
+    </div>
+    <nav class="content-spacing">
+      <li>
+        <img src="/media/icons/pax_west_logo.png">
+      </li>
+      <ul>
+        <li>
+          <p class="font-family-l f-s-2 font-weight2">About</p>
+        </li>
+        <li>
+          <p class="font-family-l f-s-2 font-weight2">Features</p>
+        </li>
+        <li>
+          <p class="font-family-l f-s-2 font-weight2">Guests</p>
+        </li>
+        <li>
+          <p class="font-family-l f-s-2 font-weight2" id="sponsor-nav">Sponsors</p>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section class="content-spacing" id="header">
       <div>
-        <h2 class="font-family-l font-color1 font-weight1">"Hello! Gamers"</h2>
+        <h2 class="font-family-l font-color1 font-weight1" id="gamers">"Hello! Gamers"</h2>
         <h1 class="font-family-c">PAX WEST CONFERENCE 2021</h1>
       </div>
       <div>
@@ -35,33 +61,34 @@
       <h2 class="font-family-l font-color3 font-weight1 txt-a-c section-Title">Events</h2>
       <hr class="solid-separator">
       <ul class="column-container">
-        <li class="event-container">
+        <li class="event-container event-1">
           <img src="/media/icons/icons8-presentation-100.png" alt="Panels icon" />
           <h2 class="font-family-l font-color1">Panels</h2>
           <p class="font-family-l font-color3">Elevate all aspects of the culture around gaming withour panels.</p>
         </li>
-        <li class="event-container">
+        <li class="event-container event-2">
           <img src="https://img.icons8.com/material-rounded/96/ffffff/controller.png" alt="Expo icon" />
           <h2 class="font-family-l font-color1">Expo Hall</h2>
           <p class="font-family-l font-color3">Packed with AAA publishers, developers, indie teams.</p>
         </li>
-        <li class="event-container">
+        <li class="event-container event-1">
           <img src="https://img.icons8.com/ios-filled/100/ffffff/crown.png" alt="Panels icon" />
           <h2 class="font-family-l font-color1">Omegathon</h2>
-          <p class="font-family-l font-color3">Champions from the audience competing against each other</p>
+          <p class="font-family-l font-color3">Champions from the audience against each other</p>
         </li>
-        <li class="event-container">
+        <li class="event-container event-2">
           <img src="https://img.icons8.com/ios-glyphs/90/ffffff/performance.png" alt="Arena icon" />
           <h2 class="font-family-l font-color1">Pax Arena</h2>
           <p class="font-family-l font-color3">Gamers against each other for fame, glory, and cold hard cash?</p>
         </li>
-        <li class="event-container">
+        <li class="event-container event-1">
           <img src="https://img.icons8.com/ios/100/ffffff/trumpet.png" alt="Bandland icon" />
           <h2 class="font-family-l font-color1">Bandland</h2>
           <p class="font-family-l font-color3">Meet and greet or greet and meet talented creators.</p>
         </li>
       </ul>
       <a class="bttn-clasic bttn-1 font-family-l">Save Your Seat</a>
+      <p class="font-family-l font-color3 txt-a-c font-weight3 f-s-2" id="p-event">SEE THE WHOLE CONFERENCE</p>
     </section>
     <section class="content-spacing" id="guests">
       <h2 class="font-family-l font-color2 .font-weight3 txt-a-c section-Title">Guests</h2>
@@ -92,10 +119,43 @@
             <p class="font-family-l font-color2 font-weight1 f-s-2">Creators of Escape From Tarkov</p>
           </div>
         </li>
+        <li class="guest-container">
+          <img class="img-radius" src="media/icons/battlestate.png" alt="Battlestate logo" />
+          <div class="guest">
+            <h2 class="font-family-l font-color2 font-weight2">Battle State</h2>
+            <h2 class="font-family-l font-color1 font-weight1 f-s-2">Game Studio</h2>
+            <p class="font-family-l font-color2 font-weight1 f-s-2">Creators of Escape From Tarkov</p>
+          </div>
+        </li>
+        <li class="guest-container">
+          <img class="img-radius" src="media/icons/battlestate.png" alt="Battlestate logo" />
+          <div class="guest">
+            <h2 class="font-family-l font-color2 font-weight2">Battle State</h2>
+            <h2 class="font-family-l font-color1 font-weight1 f-s-2">Game Studio</h2>
+            <p class="font-family-l font-color2 font-weight1 f-s-2">Creators of Escape From Tarkov</p>
+          </div>
+        </li>
       </ul>
-      <a class="bttn-clasic bttn-2 font-family-l">MORE<img id="arrowIcon"
+      <a class="bttn-clasic bttn-2 font-family-l" id="more-bttn">MORE<img id="arrowIcon"
           src="https://img.icons8.com/fluency-systems-regular/15/000000/shift-down.png" alt="Down arrow icon" /></a>
     </section>
+    <section class="content-spacing bg-c-2" id="sponsors">
+      <h2 class="font-family-l font-color3 .font-weight3 txt-a-c">Sponsors</h2>
+      <hr class="solid-separator" id="sponsor-separator">
+      <div class="sponsors">
+        <img src="media/icons/xbox.png" alt="PAX Sponsor Xbox">
+        <img src="media/icons/xbox.png" alt="PAX Sponsor Twitch">
+        <img src="media/icons/xbox.png" alt="PAX Sponsor Nintendo">
+        <img src="media/icons/xbox.png" alt="PAX Sponsor Nvidia">
+        <img src="media/icons/xbox.png" alt="PAX Sponsor">
+      </div>
+    </section>
+    <footer class="content-spacing bg-c-1">
+      <div>
+        <img src="media/icons/pax_west_logo.png" alt="PAX Sponsor Xbox">
+        <h2 class="font-family-l font-color2 .font-weight3 txt-a-c f-s-1">© 2021 RX. All Rights Reserved.</h2>
+      </div>
+    </footer>
   </main>
   <script src="js/main.js"></script>
 </body>
