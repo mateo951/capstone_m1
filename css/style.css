@@ -36,12 +36,12 @@ h2 {
 }
 
 @font-face {
-  font-family: coco;
-  src: url(./media/fonts/cocogoose/cocogoose.woff);
+  font-family: "coco";
+  src: url(/media/fonts/cocogoose/cocogoose.woff);
 }
 
 .font-family-c {
-  font-family: coco, sans-serif;
+  font-family: "coco", sans-serif;
 }
 
 .font-family-l {
