@@ -23,7 +23,7 @@ h1 {
   line-height: 30px;
   font-weight: 600;
   font-size: 30px;
-  background: url(/media/images/pax-bg-1.png);
+  background: url(./media/images/pax-bg-1.png);
   background-size: cover;
   background-position: center;
   -webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@ h2 {
 
 @font-face {
   font-family: "coco";
-  src: url(/media/fonts/cocogoose/cocogoose.woff);
+  src: url(./media/fonts/cocogoose/cocogoose.woff);
 }
 
 .font-family-c {
@@ -426,7 +426,7 @@ nav {
   }
 
   #header {
-    background-image: url("/media/images/pax-bg-1.jpg");
+    background-image: url("./media/images/pax-bg-1.jpg");
     padding: 10%;
     box-shadow: 0 3px 3px 3px #a7a5a5;
     height: 65vh;
