@@ -37,7 +37,7 @@ h2 {
 
 @font-face {
   font-family: coco;
-  src: url(/media/fonts/cocogoose/cocogoose.woff);
+  src: url(./media/fonts/cocogoose/cocogoose.woff);
 }
 
 .font-family-c {
@@ -348,19 +348,19 @@ nav {
   display: block;
 }
 
-@media only screen and (min-width: 425px) { 
+@media only screen and (min-width: 425px) {
   #guests li div {
     max-width: 30vw;
   }
 }
 
-@media only screen and (max-width: 424px) { 
+@media only screen and (max-width: 424px) {
   #guests li div {
     max-width: 45vw;
   }
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
   #hbIcon {
     display: none;
   }
@@ -371,7 +371,7 @@ nav {
 
   .header-bar {
     box-sizing: border-box;
-    background-color: #3C3E3D;
+    background-color: #3c3e3d;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -402,9 +402,9 @@ nav {
   }
 
   nav img {
-    flex-basis: 50%;
-    width: 70px;
+    width: 70px !important; 
     margin-left: 30px;
+    max-height: 50px;
   }
 
   nav li p {
@@ -454,7 +454,7 @@ nav {
     font-size: 35px;
     margin-top: 50px;
   }
-  
+
   hr.solid-separator {
     margin-bottom: 40px;
   }
@@ -463,24 +463,35 @@ nav {
     margin-bottom: 20px;
   }
 
-  .content-spacing.bg-c-2 img { 
+  footer div img {
+    width: 100px;
+  }
+
+  .pasts-events-container img {
+    max-height: 550px;
+    width: 30% !important;
+    height: auto;
+    margin: 60px auto !important;
+  }
+
+  .content-spacing.bg-c-2 img {
     margin-left: unset;
     margin-right: unset;
     margin-bottom: 20px;
     width: 130px;
   }
-  
+
   .sponsors {
     justify-content: center;
     flex-wrap: unset;
   }
-  
+
   .column-container {
     flex-direction: row;
     gap: 3px;
     margin: 0;
   }
-  
+
   .event-container {
     flex-direction: column;
     padding: 20px;
@@ -489,7 +500,7 @@ nav {
     text-align: center;
   }
 
-  .event-container h2  {
+  .event-container h2 {
     flex-basis: 0;
   }
 
@@ -529,10 +540,6 @@ nav {
     gap: 200px;
   }
 
-  footer div img {
-    width: 100px;
-  }
-
   #p-about {
     width: 50vw;
     padding: 50px;
@@ -547,13 +554,6 @@ nav {
     margin-top: 60px;
     width: 60%;
     margin-bottom: 53px;
-  }
-
-  .pasts-events-container img {
-    max-height: 550px;
-    width: 30% !important;
-    height: auto;
-    margin: 60px auto !important;
   }
 
   .pasts-events-container {
@@ -574,7 +574,8 @@ nav {
     padding-left: 15%;
     padding-right: 15%;
   }
-  .content-spacing.bg-c-2 img { 
+
+  .content-spacing.bg-c-2 img {
     width: 170px;
   }
 }
