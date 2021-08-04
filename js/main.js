@@ -38,12 +38,12 @@ hamBttn.addEventListener('click', () => {
     thirdId = 'sponsors';
   }
   div.innerHTML = '<img src="https://img.icons8.com/ios/35/000000/circled-x.png" class="cancelBttn"></img>'
-        + '<ul class="mobile-menu-ul">'
-        + `<li class="font-family-c mobile-menu-li"><a href="${hrefFirstElmnt}.html">${firstElement}</a></li>`
-        + `<li class="font-family-c mobile-menu-li"><a href="#${firstId}">${secondElement}</a></li>`
-        + `<li class="font-family-c mobile-menu-li"><a href="#${secondId}">${thirdElement}</a></li>`
-        + `<li class="font-family-c mobile-menu-li"><a href="#${thirdId}">${forthElement}</a></li>`
-        + '</ul>';
+    + '<ul class="mobile-menu-ul">'
+    + `<li class="font-family-c mobile-menu-li"><a href="${hrefFirstElmnt}.html">${firstElement}</a></li>`
+    + `<li class="font-family-c mobile-menu-li"><a href="#${firstId}">${secondElement}</a></li>`
+    + `<li class="font-family-c mobile-menu-li"><a href="#${secondId}">${thirdElement}</a></li>`
+    + `<li class="font-family-c mobile-menu-li"><a href="#${thirdId}">${forthElement}</a></li>`
+    + '</ul>';
   document.body.appendChild(div);
   document.body.appendChild(grayBgDiv);
   div.style.display = 'block';
@@ -65,3 +65,49 @@ hamBttn.addEventListener('click', () => {
     });
   }
 });
+
+// Dynamic Guests
+const guests = [
+  {
+    guest: 'Rockstar',
+    imgUrl: '../media/icons/rockstar-games.svg',
+    companyDes: 'AAA Publisher',
+    description: 'Known World-wide for GTA series',
+  },
+  {
+    guest: 'Andean',
+    imgUrl: '../media/icons/andean.png',
+    companyDes: 'Indie Studio',
+    description: 'Showcasing future releases for mobile',
+  },
+  {
+    guest: 'Battle State',
+    imgUrl: '../media/icons/battlestate.png',
+    companyDes: 'Game Studio',
+    description: 'Creators of Escape From Tarkov',
+  },
+  {
+    guest: 'Gamepires',
+    imgUrl: '../media/icons/gamepires.png',
+    companyDes: 'Game Studio',
+    description: 'The studio developing Scum',
+  },
+];
+
+function createProjectsSeciton() {
+  if (guests.length > 0) {
+    const guestsSection = document.querySelector('.guestsSection');
+
+    for (let i = 0; i < guests.length; i += 1) {
+      guestsSection.innerHTML += '<li class="guest-container">'
+        + `<img src="${guests[i].imgUrl}" alt="Guest logo"/>`
+        + '<div class="guest">'
+        + `<h2 class="font-family-l font-color2 font-weight2">${guests[i].guest}</h2>`
+        + `<h2 class="font-family-l font-color1 font-weight1 f-s-2">${guests[i].companyDes}</h2>`
+        + `<p class="font-family-l font-color2 font-weight1 f-s-2">${guests[i].description}</p>`
+        + '</div>'
+        + '</li>';
+    }
+  }
+}
+createProjectsSeciton();
