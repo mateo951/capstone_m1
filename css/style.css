@@ -35,6 +35,11 @@ h2 {
   margin: 0;
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "coco";
   src: url("../media/fonts/cocogoose/cocogoose.woff");
@@ -348,6 +353,47 @@ nav {
   display: block;
 }
 
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#overlay-menu-bg {
+  bottom: 0;
+  background: #e5e5e5;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.cancelBttn {
+  float: right;
+  padding-top: 25px;
+  margin-right: 10%;
+}
+
+.mobile-menu-ul {
+  float: left;
+}
+
+.mobile-menu-li {
+  z-index: 3;
+  padding: 11px;
+  font-size: 25px;
+  color: #ec5242;
+  float: left;
+  width: 100vw;
+  font-weight: 100;
+  margin-left: 5%;
+}
+
+.mobile-menu-li a {
+  color: #ec5242;
+}
+
 @media only screen and (min-width: 425px) {
   #guests li div {
     max-width: 30vw;
@@ -392,6 +438,19 @@ nav {
     gap: 20px;
   }
 
+  nav li p {
+    flex-basis: 10%;
+    color: #3c3e3d;
+  }
+
+  .header-bar p {
+    color: white;
+  }
+
+  nav ul li p:hover {
+    color: #ec5242;
+  }
+
   nav ul {
     display: flex;
     flex-direction: row;
@@ -402,22 +461,13 @@ nav {
   }
 
   nav img {
-    width: 70px !important; 
+    width: 70px !important;
     margin-left: 30px;
     max-height: 50px;
   }
 
-  nav li p {
-    flex-basis: 10%;
-    color: #3c3e3d;
-  }
-
   .header-bar i {
     color: #fff;
-  }
-
-  .header-bar p {
-    color: white;
   }
 
   #sponsor-nav {
