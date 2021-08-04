@@ -23,7 +23,7 @@ h1 {
   line-height: 30px;
   font-weight: 600;
   font-size: 30px;
-  background: url(./media/images/pax-bg-1.png);
+  background: url("./media/images/pax-bg-1.png");
   background-size: cover;
   background-position: center;
   -webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@ h2 {
 
 @font-face {
   font-family: "coco";
-  src: url(./media/fonts/cocogoose/cocogoose.woff);
+  src: url("./media/fonts/cocogoose/cocogoose.woff");
 }
 
 .font-family-c {
