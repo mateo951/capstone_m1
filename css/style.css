@@ -318,7 +318,6 @@ footer div img {
 }
 
 #sponsors {
-  margin-top: 10px;
   padding-top: 50px;
 }
 
@@ -407,6 +406,22 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
+  .sponsors-about {
+    background-color: dimgray;
+  }
+
+  #about-footer {
+    background-color: #292a2e;
+  }
+
+  .event-container h2 {
+    flex-basis: 0;
+  }
+
+  #about-footer h2 {
+    color: white !important;
+  }
+
   #hbIcon {
     display: none;
   }
@@ -548,10 +563,6 @@ nav {
     max-width: 180px;
     gap: 11px;
     text-align: center;
-  }
-
-  .event-container h2 {
-    flex-basis: 0;
   }
 
   .event-1 {
